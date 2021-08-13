@@ -3,25 +3,29 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: auto;
   }
   
   /* Header/logo Title */
   .header {
-    padding: 80px;
-    text-align: center;
-    background: #ecbce0;
-    color: white;
+    padding: 300px;
+    text-align: left;
+    background-image: url(https://i.pinimg.com/originals/5f/f8/0b/5ff80b094f440a3fa7f4c596e01d9f30.jpg);
+    height: 100px;
+    color: rgb(230, 150, 213);
+    font-weight: 300;
   }
+
   
   /* Increase the font size of the heading */
   .header h1 {
-    font-size: 40px;
+    font-size: 60px;
   }
   
   /* Style the top navigation bar */
   .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color:#faf9fa;
   }
   
   /* Style the navigation bar links */
@@ -33,10 +37,11 @@ body {
     padding: 14px 20px;
     text-decoration: none;
   }
-  
+ 
   /* Right-aligned link */
   .navbar a.right {
     float: right;
+    color: #e4afee;
   }
   
   /* Change color on hover */
@@ -44,7 +49,20 @@ body {
     background-color: #ddd;
     color: rgb(0, 0, 0);
   }
+  .img {
+    border-radius: 8px;
+    float: center;
+  }
   
+  p {
+    color: rgb(15, 15, 15);
+    text-indent: 30px;
+    text-transform: uppercase;
+    float: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    border-style: double;
+  }
   /* Column container */
   .row {  
     display: -ms-flexbox; /* IE10 */
@@ -58,16 +76,20 @@ body {
   .side {
     -ms-flex: 30%; /* IE10 */
     flex: 30%;
-    background-color: #f1f1f1;
+    background-color: hsl(213, 52%, 92%);
     padding: 20px;
   }
-  
+  a:visited {
+    color: #e4afee;
+    background-color: transparent;
+    text-decoration: none;
+  }
   /* Main column */
   .main {   
     -ms-flex: 70%; /* IE10 */
     flex: 70%;
-    background-color: white;
     padding: 20px;
+    background-color: hsl(213, 52%, 92%);
   }
   
   /* Fake image, just for this example */

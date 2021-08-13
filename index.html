@@ -1,153 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="./assests/style.css" />
+  <link rel="stylesheet" href="assests/style.css" />
 <head>
-<title>Page Title</title>
+<title>Miranda's Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-/* Header/logo Title */
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #ecbce0;
-  color: white;
-}
-
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
-}
-
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: rgb(182, 180, 180);
-}
-
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-/* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
+<div class="image">
+</div>
 </head>
 <body>
 
 <div class="header">
-  <h1>My Portfolio</h1>
-  <p>A website created by Miranda Zermeno.</p>
+  <h1>Welcome To My Portfolio</h1>
 </div>
 
 <div class="navbar">
-  <a href="#">About Me</a>
-  <a href="#">Work</a>
-  <a href="#">Contact Me</a>
-  <a href="#" class="right">GitHub</a>
+  <a href="#aboutme">About Me</a>
+  <a href="#work">Work</a>
+  <a href="#contactme">Contact Me</a>
+  <a href="#github" class="right">GitHub</a>
 </div>
-
 <div class="row">
   <div class="side">
     <h2>About Me</h2>
-    <h5>Photo of me:</h5>
-    <img src="data:image/jpeg;base64,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" alt="selfie">
-    <p>Hello, my name is Miranda. I enjoy being creative and bring out the beauty out of each project.</p>
-    <h3>More Text</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div><br>
-    <div class="fakeimg" style="height:60px;">Image</div>
+    <img src="https://lh3.googleusercontent.com/ogw/ADea4I5WhHUH-SWa_0qdmdNo7oF4DWA00jDlG8n172UlhA=s192-c-mo" alt="selfie" style="width:400px">
+    <style>
+      img {
+        border-radius: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      </style>
+    <p style="text-align: center;">Hello! My name is Miranda and I enjoy creating thinks that live on the internet. My interest  in design started back in 2016 when I decided to started my pursuit of Architecture. Turns out creating designs online taught me a lot of how impactful web design can be.</p>
+    <p style="text-align: center;">Fast-forward to today, I’ve managed to start my new career path in web development. I’m a Dallas as based freelance. My style is rather minimalistic with a strong focus to detail.</p> 
+    <h3>Text here.. </h3>
+    <p>Add text here...</p>
+    <img src="https://i.pinimg.com/originals/55/46/25/5546254bf5893ec3f181726498c6e99e.jpg" alt="selfie" style="width:400px">
+    <img src="https://www.instagram.com/p/CB9GvJrAfUu3jrn2JQxEcnZa5iGv4t5C-0RUHs0/" style="height:60px;">
+
   </div>
   <div class="main">
-    <h2>My Work</h2>
-    <h5>Horseion, Aug. 9, 2021</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Describe the project here..</p>
+    <h2>Projects</h2>
+    <h5>Horiseon, Aug. 9, 2021</h5>
+    <img src="Horiseon.png" alt="website" style="height:200px;">
+    <p>Horiseon Social Solution Services</p>
+    <p>This is the main home page for Horiseon a social solution service company.</p>
     <br>
-    <h2>Project</h2>
-    <h5>Title description, Aug. 9,2021</h5>
-    <div class="fakeimg" style="height:200px;">Image</div>
-    <p>Some text..</p>
-    <p>Describe the project here.</p>
+    <h5>Tinker, Aug. 9,2021</h5>
+    <img src="https://assets.hongkiat.com/uploads/clean-simple-minimalist-website-design/tinker.jpg" alt="Plants Website" style="width:100%">
+    
+    <p>This a curated website for beauty, clothing and lifestyle.Tinker was founded a simplistic apporach to design and lifstyle. I created a landing page that showcases luxury and design.</p>
   </div>
 </div>
 
