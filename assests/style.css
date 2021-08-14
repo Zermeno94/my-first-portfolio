@@ -12,7 +12,7 @@ body {
     text-align: left;
     background-image: url(https://i.pinimg.com/originals/5f/f8/0b/5ff80b094f440a3fa7f4c596e01d9f30.jpg);
     height: 100px;
-    color: rgb(230, 150, 213);
+    color: rgb(232, 145, 213);
     font-weight: 300;
   }
 
@@ -57,12 +57,13 @@ body {
   p {
     color: rgb(15, 15, 15);
     text-indent: 30px;
-    text-transform: uppercase;
+    text-transform: none;
     float: center;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     border-radius: 5px;
     border-style: double;
+    font-size: large;
   }
   /* Column container */
   .row {  
@@ -91,13 +92,6 @@ body {
     flex: 70%;
     padding: 20px;
     background-color: hsl(213, 52%, 92%);
-  }
-  
-  /* Fake image, just for this example */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
   }
   
   /* Footer */
