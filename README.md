@@ -19,7 +19,7 @@ This is my first portfolio to showcases my skills and talents to future employer
 
 [link to the deployed wesbite]
 
-[Link to the code repository]
+[Link to the code repository] (https://github.com/Zermeno94/my-first-portfolio)
 
 ## **Credits**
 Miranda Zermeno
