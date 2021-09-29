@@ -16,7 +16,16 @@ body {
     font-weight: 300;
   }
 
+  .about{
+    background-color:#e4afee ;
+    background-position: center;
+    
+  }
   
+
+  /* .AboutMe-intro{ */
+    
+  /* } */
   /* Increase the font size of the heading */
   .header h1 {
     font-size: 60px;
